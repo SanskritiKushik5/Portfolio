@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web applications with Python / Reactjs / Flask and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1OatCsSNdrPMggQETwgjkYsaoZffg9UJ5/view?usp=sharing",
+    "https://drive.google.com/file/d/1eEfXwuBIXL9Bjzz6diu4StGybFCWZbTD/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -29,7 +29,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/sanskriti.kushik/",
   // medium: "https://medium.com/@davidrakosi",
   // stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/skkkk_5/',
+  instagram: 'https://www.instagram.com/skkkk__5/',
   twitter: 'https://twitter.com/KushikSanskriti',
   display: true // Set true to display this section, defaults to false
 };
@@ -114,7 +114,7 @@ const educationInfo = {
       schoolName: "Usha Mittal Institute of Technology, Mumbai",
       subHeader: "Bachelor of Technology in Computer Science",
       duration: "June 2019 - Present",
-      desc: "Learning Data Structures, Operating Systems, Computer Architecture and Discrete Mathematics",
+      desc: "Learning Data Structures, Operating Systems, Computer Architecture, DBMS and Discrete Mathematics",
       descBullets: [
         "CGPA: 9.96/10.0"
       ]
@@ -124,7 +124,7 @@ const educationInfo = {
       subHeader: "Higher Secondary, Science",
       duration: "June 2017 - May 2019",
       desc:
-        "Cracked JEE MAINS, MHCET",
+        "Cracked JEE MAINS & MHT-CET",
       descBullets: ["Boards:- 94%"]
     }
   ]
@@ -136,16 +136,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend Development", //Insert stack or technology you have experience in
+      Stack: "Frontend Development (HTML-CSS-JS, )", //Insert stack or technology you have experience in
       progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend Development (Flask, NodeJs)",
-      progressPercentage: "75%"
+      Stack: "Backend Development (Flask, Django, NodeJs)",
+      progressPercentage: "78%"
     },
     {
-      Stack: "Backend Development (Django)",
-      progressPercentage: "78%"
+      Stack: "Databases (SQL, MongoDB)",
+      progressPercentage: "68%"
     },
     {
       Stack: "Competitive Programming",
@@ -161,12 +161,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Assistant Web Developer",
+      company: "Zeta Group",
+      companylogo: "https://i.imgur.com/hSuIm3h.png",
+      date: "June 2021 – Present",
+      desc:
+        "Maintaining Shopify Website - Mumshop",
+      descBullets: [
+        "Adding products and collections",
+        "Adding deals (choice-cheapies) and adjusting tags",
+      ]
+    },
+    {
+      role: "Project Intern",
+      company: "InternExperience",
+      companylogo: "https://i.imgur.com/TAuOhOx.png",
+      date: "April 2021 – Present",
+      descBullets: [
+        "Developed UI with ReactJs",
+        "Built Database models and created REST APIs with Django Rest Framework",
+      ]
+    },
+    {
       role: "Open Source Contributor",
       company: "GirlScript Summer of Code",
       companylogo: "https://i.imgur.com/aX7Y1IA.png",
-      date: "February 2021 – Present",
+      date: "February 2021 – April-2021",
       desc:
-        "To contribute in various open source projects"
+        "Contributed in setting up dark-mode and beautifying the UI in a React Messenger App"
     },
     {
       role: "Open Source Contributor",
@@ -174,7 +196,7 @@ const workExperiences = {
       companylogo: "https://i.imgur.com/Ps16d3L.png",
       date: "January 2020 – March 2021",
       desc:
-        "Contributed in building an e-commerce website"
+        "Contributed in building an e-commerce website (Sports website) using NodeJs, SQL and Bootstrap"
     },
     {
       role: "Web Development and Designing Intern",
@@ -184,8 +206,8 @@ const workExperiences = {
       desc:
         "Graduate Rotational Internship Program (GRIP)",
       descBullets: [
-        "Complete a Web development Project",
-        "Improve Technical connections",
+        "Completed a Web development Project",
+        "Improved connections in the Industry",
       ]
     }
   ]
@@ -198,7 +220,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "SanskritiKushik5", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -207,6 +229,32 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "",
   projects: [
+    {
+      // image: require("https://i.imgur.com/c7dsj3n.png"),
+      projectName: "Subscriptz",
+      image: "https://i.imgur.com/657oIrM.png",
+      projectDesc: "A website where unused subscriptions can be added for the needy ones while one can also claim subscriptions added by others",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://koderz-subscriptz.herokuapp.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      // image: require("https://i.imgur.com/c7dsj3n.png"),
+      projectName: "The Laali Project",
+      image: "https://i.imgur.com/xNkLGz0.png",
+      projectDesc: "A portal to connect Alumnis, Mentors and Mentees with an admin panel and other functionalities",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://the-laali-project-67.herokuapp.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       // image: require("https://i.imgur.com/c7dsj3n.png"),
       projectName: "Scienocyde",
@@ -264,17 +312,6 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: "https://i.imgur.com/tU8JYAJ.png",
-      projectName: "SnapChat Clone",
-      projectDesc: "SnapChat Clone - web built with ReactJs and Firebase",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://snapchat-clone-3f877.web.app/"
-        }
-      ]
-    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -288,6 +325,24 @@ const achievementSection = {
     "",
 
   achievementsCards: [
+    {
+      title: "Finalist - Runner Up",
+      subtitle:
+        "JPMC Code for Good -- 2021 for bulding The Laali Project - Connect Portal",
+      image: "https://i.imgur.com/xNkLGz0.png",
+      footerLink: [
+        {
+          name: "Connect Portal",
+          url:
+            "https://the-laali-project-67.herokuapp.com/"
+        },
+        {
+          name: "Code For Good",
+          url:
+            "https://cfg2.bemyapp.com/#/event"
+        }
+      ]
+    },
     {
       title: "Best Girls Team",
       subtitle:
